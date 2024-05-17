@@ -40,7 +40,7 @@ class Solution {
 
 class Main {
     public static void main(String args[]){
-        //Valid Path
+
         Solution solution = new Solution();
 
         int n = 3;
