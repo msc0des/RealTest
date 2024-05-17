@@ -49,6 +49,6 @@ class Main {
         int destination = 2;
 
         boolean result = solution.validPath(n, edges, source, destination);
-        System.out.println("Can reach destination from source: " + result);
+        System.out.println("Can reach to destination from source: " + result);
     }
 }
