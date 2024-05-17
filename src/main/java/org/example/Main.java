@@ -1,5 +1,7 @@
 package org.example;
 
+import jdk.internal.org.jline.terminal.TerminalBuilder;
+
 import java.util.*;
 
 class Solution {
@@ -50,5 +52,6 @@ class Main {
 
         boolean result = solution.validPath(n, edges, source, destination);
         System.out.println("Can reach to destination from source: " + result);
+        System.out.println("End of program");
     }
 }
